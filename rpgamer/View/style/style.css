@@ -1,3 +1,5 @@
+@import url('fonts.css');
+
 .row-header{
     height: 60px;
     border-bottom: 3px black solid;
@@ -40,5 +42,10 @@
     :is(.box-opcoes){
         width: 80% !important;
     }
+}
+
+.box-opcoes .titulo{
+    font-family: LifeCraft;
+    font-weight: 800;
 }
 

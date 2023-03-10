@@ -1,4 +1,4 @@
-@import url('fonts.css');
+@import url('View/style/fonts.css');
 
 .row-header{
     height: 60px;
@@ -7,7 +7,7 @@
 
 .row-main{
     height: calc(100vh - 120px);
-    background-image: url("../images/background/wallpaper-home.jpg");
+    background-image: url("/View/images/background/wallpaper-home.jpg");
     background-size: cover;
     background-position: bottom;
 }
@@ -15,7 +15,7 @@
 .row-footer{
     border-top: 3px black solid;
     height: 60px;
-    background-image: url("../images/footer/background-texture-footer.jpg");
+    background-image: url("/View/images/footer/background-texture-footer.jpg");
     background-size: cover;
 }
 

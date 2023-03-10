@@ -18,21 +18,20 @@
             </div>
         </header>
         <main class="row-main row d-flex align-items-center justify-content-center">
-            <div class="box-opcoes col-4 bg-black bg-opacity-75 rounded-4">
-                <div class="d-flex flex-column h-100 justify-content-evenly align-items-center">
+            <div class="box-opcoes col-4 bg-black bg-opacity-75 rounded-4 p-3 p-lg-4">
+                <div class="d-flex flex-column h-100 justify-content-center align-items-center">
                     <div>
-                        <h2 class="titulo">TIPO DE JOGADOR</h2>
+                        <h2 class="titulo ">TIPO DE JOGADOR</h2>
                     </div>
-                    <div class="d-flex flex-column w-50 gap-4">
-                        <a href="#" class="btn">A</a>
-                        <a href="#" class="btn">A</a>
+                    <div class="d-flex flex-column w-75 text-center gap-4 text-white">
+                        <a href="#" class="botao btn btn-lg">MESRTE</a>
+                        <a href="#" class="botao btn btn-lg">PERSONAGEM</a>
                     </div>
                 </div>
             </div>
         </main>
         <footer class="row-footer row">
             <div class="col">
-                Column
             </div>
         </footer>
     </div>

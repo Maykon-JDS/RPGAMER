@@ -2,3 +2,10 @@
     font-family: LifeCraftFont;
     src: url('/View/fonts/LifeCraft.ttf'), format('truetype');
 }
+
+@font-face {
+    font-family: 'warcraft';
+    font-style: normal;
+    font-weight: 500;
+    src: local('warcraft'), url('https://fonts.cdnfonts.com/s/38753/Warcraft-Yj2j.woff') format('woff');
+}

@@ -28,24 +28,58 @@
     height: 40%;
 }
 
+.box-opcoes .titulo{
+    font-family: LifeCraft, 'warcraft';
+    color: #F7B10A;
+    font-weight: 800;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    margin-bottom: 15%;
+}
+
+.box-opcoes .botao{
+    font-size: 20px;
+    color: #F7B10A;
+    border: 1px #F7B10A solid;
+}
+
+.box-opcoes .botao:hover{
+    background-color: #F7B10A;
+}
+
+
+@media (max-width: 1366px){
+    .box-opcoes .botao{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1280px){
+    
+}
+
 @media (max-width: 980px){
     :is(.row-header,.row-main,.row-footer){
         padding-left: 4vw;
         padding-right: 4vw;
     }
+
     :is(.box-opcoes){
         width: 60% !important;  
     }
+
+    .box-opcoes .titulo{
+        font-size: 5vw;
+    }
 }
+
 @media (max-width: 650px){
     
     :is(.box-opcoes){
         width: 80% !important;
     }
-}
 
-.box-opcoes .titulo{
-    font-family: LifeCraft;
-    font-weight: 800;
+    .box-opcoes .titulo{
+        font-size: 6vw;
+    }
 }
-
